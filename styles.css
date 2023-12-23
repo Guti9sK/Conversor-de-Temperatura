@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d4e9f2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #4169e1;
+  padding: 30px 7px;
+  border-radius: 10px;
+  width: 85%;
+  max-width: 450px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #030303;
+}
+
+h1 {
+  margin-bottom: 1.6rem;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.label1 {
+  margin-right: 1.7rem;
+}
+
+.labelK {
+  margin-right: 1.9rem;
+}
+
+.labelF {
+  margin-right: 0.1rem;
+}
+
+.temp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.input {
+  background-color: #48d1cc;
+  margin-left: 2rem;
+  width: 200px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 6px 6px 1rem rgba(116, 228, 236, 0.2);
+}
+
+.input::placeholder {
+  color: rgb(34, 33, 33);
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    text-align: center;
+    padding: 30px 0px;
+  }
+
+  .temp-container {
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input {
+    width: 52%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 1.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .label1 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  .labelF {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
